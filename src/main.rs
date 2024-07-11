@@ -195,7 +195,7 @@ fn main() {
             },
             "4" => {
                 // Encrypts and displays contents in file "Message.txt"
-                let file_contents = fs::read_to_string("C:/Users/JWigh/Desktop/Message.txt").unwrap().to_string();
+                let file_contents = fs::read_to_string("C:/Users/JWigh/RustroverProjects/String_Cypher/Message.txt").unwrap().to_string();
                 enc_contents = encode_string(file_contents, create_key(seed));
                 println!("\nEncoded message: \n\n{}",enc_contents);
             },
